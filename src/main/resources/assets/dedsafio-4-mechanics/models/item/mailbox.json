@@ -1,0 +1,10 @@
+{
+  "parent": "dedsafio-4-mechanics:block/mailbox",
+  "display": {
+    "gui": {
+      "rotation": [0, 180, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.625, 0.625, 0.625]
+    }
+  }
+}
