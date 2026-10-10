@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dedsafio-4-mechanics:block/mailbox" },
+    "facing=east": { "model": "dedsafio-4-mechanics:block/mailbox", "y": 90 },
+    "facing=south": { "model": "dedsafio-4-mechanics:block/mailbox", "y": 180 },
+    "facing=west": { "model": "dedsafio-4-mechanics:block/mailbox", "y": 270 }
+  }
+}
