@@ -1,0 +1,13 @@
+{
+  "item.dedsafio-4-mechanics.dedita": "Blue Dedita",
+  "item.dedsafio-4-mechanics.dedita_roja": "Red Dedita",
+  "item.dedsafio-4-mechanics.dedita_rosa": "Pink Dedita",
+  "item.dedsafio-4-mechanics.dedita_verde": "Green Dedita",
+  "item.dedsafio-4-mechanics.cajero_spawn_egg": "ATM Spawn Egg",
+  "item.dedsafio-4-mechanics.palitomagico": "PALITOMAGICO",
+  "item.dedsafio-4-mechanics.mailbox": "Mailbox",
+  "block.dedsafio-4-mechanics.mailbox": "Mailbox",
+  "entity.dedsafio-4-mechanics.cajero": "Automatic Teller Machine",
+  "itemGroup.dedsafio-4-mechanics.nutritotem_group": "Dedsafio 4",
+  "item.minecraft.totem_of_undying": "NutriTotem"
+}
