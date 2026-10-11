@@ -121,7 +121,7 @@ public final class AtmScreenHandler extends AbstractContainerMenu {
         for (int index = 0; index < depositInventory.getContainerSize(); index++) {
             ItemStack stack = depositInventory.removeItemNoUpdate(index);
             if (!stack.isEmpty() && !playerInventory.add(stack)) {
-                playerInventory.placeItemBackInInventory(stack);
+                player.spawnAtLocation((net.minecraft.server.level.ServerLevel) player.level(), stack);
             }
         }
     }
