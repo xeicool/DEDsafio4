@@ -71,6 +71,8 @@ public final class AtmScreenHandler extends AbstractContainerMenu {
             CurrencyManager.addCurrency(server, serverPlayer.getUUID(), type, deposited[type.ordinal()]);
         }
         serverPlayer.sendSystemMessage(Component.literal("Deditas ingresadas en la cuenta."), true);
+        
+        return true; 
     }
 
     /** 100 deditas azules = 1 verde; el resto se queda como azul. */
