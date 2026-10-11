@@ -121,7 +121,7 @@ public final class AtmScreenHandler extends AbstractContainerMenu {
         for (int index = 0; index < depositInventory.getContainerSize(); index++) {
             ItemStack stack = depositInventory.removeItemNoUpdate(index);
             if (!stack.isEmpty() && !playerInventory.add(stack)) {
-                player.drop(stack, false);
+                playerInventory.placeItemBackInInventory(stack);
             }
         }
     }
