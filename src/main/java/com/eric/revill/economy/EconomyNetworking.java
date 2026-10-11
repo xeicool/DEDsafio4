@@ -67,9 +67,9 @@ public final class EconomyNetworking {
 
     private static void say(ServerPlayer player, String text, boolean overlay) {
         if (overlay) {
-            player.displayClientMessage(Component.literal(text), true);
+            player.sendSystemMessage(Component.literal(text), true);
         } else {
-            player.sendSystemMessage(Component.literal(text));
+            target.sendSystemMessage(
         }
     }
 
