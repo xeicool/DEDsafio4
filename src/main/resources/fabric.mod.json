@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dedsafio-4-mechanics",
+  "version": "${version}",
+  "name": "DEDSAFIO 4 Mechanics",
+  "description": "Sistema de mecánicas, ruletas y eventos DEDSAFIO 4 para Fabric 26.3.",
+  "authors": ["Eric"],
+  "license": "MIT",
+  "icon": "assets/dedsafio-4-mechanics/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.eric.revill.RevillMod"],
+    "client": ["com.eric.revill.RevillClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
