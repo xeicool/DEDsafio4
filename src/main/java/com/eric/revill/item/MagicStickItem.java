@@ -69,7 +69,7 @@ public final class MagicStickItem extends Item {
 
         target.teleportTo(destLevel, destPos.getX() + 0.5D, destPos.getY(), destPos.getZ() + 0.5D,
                 Set.of(), target.getYRot(), target.getXRot(), true);
-        target.displayClientMessage(
+        target.sendSystemMessage(
                 Component.literal("Has sido teletransportado a tu último punto de reaparición establecido.")
                         .withStyle(ChatFormatting.GREEN),
                 true);
