@@ -69,7 +69,7 @@ public final class EconomyNetworking {
         if (overlay) {
             player.sendSystemMessage(Component.literal(text), true);
         } else {
-            target.sendSystemMessage(
+            player.sendSystemMessage(Component.literal(text));
         }
     }
 
